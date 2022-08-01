@@ -1,27 +1,21 @@
 {
-    "name": "pxt-ks-lcd",
-    "version": "0.0.0",
-    "description": "",
+    "name": "KS_LCD",
+    "version": "0.6.0",
+    "description": "Extension for KAISE KSRobot ST7735 LCD",
+    "license": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "_locales/zh/KS_LCD-strings.json"
+        
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "targetVersions": {
-        "target": "5.0.12",
-        "targetId": "microbit"
-    },
     "supportedTargets": [
         "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    ]
 }
