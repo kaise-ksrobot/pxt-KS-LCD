@@ -173,7 +173,7 @@ namespace KS_LCD {
      */
     //% block="Initialize ST7735"
     //% weight=100
-    export function ST7735_SET(): void {
+    function ST7735_SET(): void {
         // Software reset
         send(TFTCommands.SWRESET, [1])
         // Exit Sleep mode
